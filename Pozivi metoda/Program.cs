@@ -13,20 +13,20 @@ namespace Vsite.CSharp.NetFrameWork
                 ++sum;
         }
 
-        // TODO:020 Pokrenuti program nekoliko puta i usporediti vremena ispisa
+        
         static void Main(string[] args)
         {
             // štoperica
             Stopwatch stopWatch = new Stopwatch();
 
-            // TODO:021 Otkomentirati donjih šest naredbi i uporediti rezultate s prijašnjima
-            //stopWatch.Restart();
-            //stopWatch.Stop();
-            //Console.WriteLine($"Prvo pokretanje/zaustavljanje štoperice: {stopWatch.Elapsed.Ticks}");
+           
+            stopWatch.Restart();
+            stopWatch.Stop();
+            Console.WriteLine($"Prvo pokretanje/zaustavljanje štoperice: {stopWatch.Elapsed.Ticks}");
 
-            //stopWatch.Restart();
-            //stopWatch.Stop();
-            //Console.WriteLine($"Drugo pokretanje/zaustavljanje štoperice: {stopWatch.Elapsed.Ticks}");
+            stopWatch.Restart();
+            stopWatch.Stop();
+            Console.WriteLine($"Drugo pokretanje/zaustavljanje štoperice: {stopWatch.Elapsed.Ticks}");
 
             // prvi poziv metode
             stopWatch.Restart();
@@ -40,7 +40,7 @@ namespace Vsite.CSharp.NetFrameWork
             stopWatch.Stop();
             Console.WriteLine($"Drugi poziv: {stopWatch.Elapsed.Ticks}");
 
-            // ponovno pozivamo metodu 50 puta
+            // ponovno pozivamo metodu 50 puta//ali sada 50 puta
             stopWatch.Restart();
             for (int i = 0; i < 50; ++i)
                 NekaMetoda();
