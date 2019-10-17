@@ -2,7 +2,7 @@
 
 namespace Vsite.CSharp.NetFramework
 {
-    // TODO:000 Pogledati strukturu projekta: Properties, References...
+    // **DONE** TODO:000 Pogledati strukturu projekta: Properties, References...
     // TODO:001 Kliknuti na projekt desnom tipkom miša i iz kontekstnog izbornika izabrati "Open Folder in File Explorer". Pogledati strukturu kazala.
     // TODO:002 Napraviti build programa i pogledati koja kazala i datoteke je Visual Studio kreirao.
     // TODO:003 Pokrenuti program i pogledati ispis.
