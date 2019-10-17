@@ -2,9 +2,7 @@
 
 namespace Vsite.CSharp.NetFramework
 {
-    // TODO:010 Pogledati i usporediti kod u projektima CSharpConsole i VbNetConsole 
-    // TODO:011 Prevesti i pokrenuti projekte CSharpConsole i VbNetConsole te usporediti ispise
-    // TODO:012 Pomoću programa ILDasm usporediti izvedbene kodove oba programa
+   
     class Program
     {
         static void Main(string[] args)
