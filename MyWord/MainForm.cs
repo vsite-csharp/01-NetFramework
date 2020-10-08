@@ -21,5 +21,15 @@ namespace MyWord
         {
             Close();
         }
+
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_TextChanged(object sender, EventArgs e)
+        {
+            textBox.Clear();
+        }
     }
 }
