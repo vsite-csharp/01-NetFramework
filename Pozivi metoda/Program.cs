@@ -12,23 +12,19 @@ namespace Vsite.CSharp.NetFrameWork
             for (int i = 0; i < 1000; ++i)
                 ++sum;
         }
-
-        // TODO:020 Pokrenuti program nekoliko puta i usporediti vremena ispisa
         static void Main(string[] args)
         {
             // štoperica
-            Stopwatch stopWatch = new Stopwatch();
+            Stopwatch stopWatch = new Stopwatch(); 
+            stopWatch.Restart();
+            stopWatch.Stop();
+            Console.WriteLine($"Prvo pokretanje/zaustavljanje štoperice: {stopWatch.Elapsed.Ticks}");
 
-            // TODO:021 Otkomentirati donjih šest naredbi i uporediti rezultate s prijašnjima
-            //stopWatch.Restart();
-            //stopWatch.Stop();
-            //Console.WriteLine($"Prvo pokretanje/zaustavljanje štoperice: {stopWatch.Elapsed.Ticks}");
+            stopWatch.Restart();
+            stopWatch.Stop();
+            Console.WriteLine($"Drugo pokretanje/zaustavljanje štoperice: {stopWatch.Elapsed.Ticks}");
 
-            //stopWatch.Restart();
-            //stopWatch.Stop();
-            //Console.WriteLine($"Drugo pokretanje/zaustavljanje štoperice: {stopWatch.Elapsed.Ticks}");
-
-            // prvi poziv metode
+            //prvi poziv metode
             stopWatch.Restart();
             NekaMetoda();
             stopWatch.Stop();
