@@ -13,7 +13,7 @@ namespace ProvideTime
             return DateTime.Now.ToShortTimeString();
         }
 
-        public static string GetDateTime()
+        private static string GetDateTime()
         {
             return DateTime.Now.ToString(); 
         }
