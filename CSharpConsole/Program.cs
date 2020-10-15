@@ -2,7 +2,6 @@
 
 namespace Vsite.CSharp.NetFramework
 {
-    // TODO:012  programa ILDasm usporediti izvedbene kodove oba programa
     class Program
     {
         static void Main(string[] args)
