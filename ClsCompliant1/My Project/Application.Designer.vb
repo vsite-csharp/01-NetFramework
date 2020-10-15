@@ -21,6 +21,8 @@ Namespace My
     '
     Partial Friend Class MyApplication
         
+        
+        
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Public Sub New()
             MyBase.New(Global.Microsoft.VisualBasic.ApplicationServices.AuthenticationMode.Windows)
