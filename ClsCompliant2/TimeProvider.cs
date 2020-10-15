@@ -19,9 +19,11 @@ namespace ProvideTime
         }
 
         // TODO:033 Promijeniti pravo pristupa donje metode iz public u private te napraviti build projekta VbNetForm, pokrenuti program i provjeriti funkcionalnost.
-        public static string GetDatetime()
+        private static string GetDatetime()
         {
             return DateTime.UtcNow.ToLongDateString();
         }
+
+      
     }
 }
